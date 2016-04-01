@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdfeaf1"
+    tools:context="com.example.android.myappportfolio.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="My Nanogegree Apps!"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#FF9800"
+        android:onClick="toast_display"
+        android:text="Spotify Streamer"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#FF9800"
+        android:onClick="toast_display1"
+        android:text="Scores App"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#FF9800"
+        android:onClick="toast_display2"
+        android:text="Library App"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#FF9800"
+        android:onClick="toast_display3"
+        android:text="Build It Bigger"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#FF9800"
+        android:onClick="toast_display4"
+        android:text="Bacon Reader"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#E91E63"
+        android:onClick="toast_display5"
+        android:text="Capstone: My Own App"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>
